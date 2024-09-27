@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(rgb(35, 121, 219),rgb(240, 123, 240)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+button {
+    background-color: rgb(30, 172, 30);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+button:active {
+    background-color: #003f7f;
+    transform: translateY(0);
+}
